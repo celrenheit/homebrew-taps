@@ -1,9 +1,9 @@
 class Sandglass < Formula
   desc "Sandglass is a distributed, horizontally scalable, persistent, delayed message queue"
   homepage "https://github.com/celrenheit/sandglass"
-  url "https://github.com/celrenheit/sandglass/releases/download/v0.1.0/sandglass_0.1.0_darwin_amd64.tar.gz"
-  version "0.1.0"
-  sha256 "b6bfd035c41dd4d107ef7832f88144c61e30a51950b24e2bd59ac85f550a5aab"
+  url "https://github.com/celrenheit/sandglass/releases/download/v0.1.1/sandglass_0.1.1_darwin_amd64.tar.gz"
+  version "0.1.1"
+  sha256 "dc497995e146ebe9b5fb8247678d9e1ef7185325a837077bb38dd78226c9d3af"
 
   def install
     bin.install "sandglass"
